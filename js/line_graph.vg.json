@@ -1,0 +1,11 @@
+  {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Magpies over time.",
+    "title": "Number of Magpies in Australia over time.",
+    "data": {"url": "./data/magpies_over_time.csv"},
+    "mark": "line",
+    "encoding": {
+      "x": {"field": "Year", "type": "temporal"},
+      "y": {"field": "Amount", "type": "quantitative"}
+    }
+  }
